@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- titre du site-->
+  <title>
+    Mathéo de Barros | Administrateur réseaux.
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Projets</a></li>
+          <li class="nav__item"><a href="#clients" class="nav__link">Mon alternance</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">Présentation</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Mathéo de Barros</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>Apprentis chez Safran Électronics & Defense</p>
+        <a href="#contact" class="btn btn--pink">Contactez moi.</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Projets</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Infrastructure GSB</h3>
+              <p>
+               Mise en place d'une Infrastruce réseaux qui comprends differents services.
+              </p>
+              <ul class="work__list">
+                <li>Serveur DHCP</li>
+                <li>Serveur DNS</li>
+                <li>Windows Serveur 2016</li>
+                <li>Serveur de base de données</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
+                   <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/schemagsb.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Traitement de l'obsolescence</h3>
+              <p>
+                Chez Safran....
+              </p>
+              <ul class="work__list">
+                <li>TRINZIC INFOBLOX</li>
+                <li></li>
+                <li>Node</li>
+                <li>MongoDB</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/obso1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Travaux Pratiques</h3>
+              <p>
+                Lors des deux années de BTS j'ai eu l'occasion de réaliser plusieur travaux pratiques avec pour objectifs de mettre en place differents services sur le PVE (Proxmox Virtual Environnement) :
+              </p>
+              <ul class="work__list">
+                <li>DNS</li>
+                <li>Journalisation</li>
+                <li>GLPI</li>
+                <li>Serveur de Base de données.</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/pve.jpeg" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <section class="client" id="clients">
+      <div class="row">
+        <h2>Mon alternance :</h2>
+        <div class="client__logos">
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <img src="./images/safran.png" class="client__logo" alt="Company 2" />
+        
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>Présentation</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              Ci-joint vous trouverez mon curriculum vitae (CV). 
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn">Menu</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/cv.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Contact</h2>
+      <div class="contact__info">
+        <p>
+          N’hésitez pas à me contacter pour toutes questions ou renseignements complémentaires. Je suis joignable à l'addresse mail suivante. 
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:matheodbrs@icloud.com" class="btn">matheodbrs@icloud.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="" title="">
+            <img src="./images/bts.png" class="footer__social-image" alt="">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="" title="">
+            <img src="" class="" alt="">
+          </a>
+        </li>
+        <li class=>
+          <a href=>
+            <img src=>
+          </a>
+        </li>
+        <li class=>
+          <a href=>
+            <img src=>
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        &copy; 2023 - Site crée par Mathéo de Barros<a href="" class="link"></a>.
+      </p>
+      <div class="footer__github-buttons">
+        <iframe
+          src="https://github.com"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
